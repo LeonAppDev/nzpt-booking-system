@@ -12,3 +12,4 @@ declare module 'redux-immutable';
 declare module 'react-immutable-proptypes';
 
 declare module 'lodash';
+

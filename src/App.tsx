@@ -14,9 +14,13 @@ const initialStore = configStore(initialState);
 
 
 function renderApp(Router: typeof React.Component) {
-    return (<Provider store={initialStore}>
+    return (
+            
+            <Provider store={initialStore}>           
               <AppointList />
-           </Provider>)
+           </Provider>
+           
+           )
 
 }
 
