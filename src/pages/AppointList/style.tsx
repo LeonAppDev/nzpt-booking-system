@@ -29,4 +29,7 @@ export const CustomTableCell = withStyles(theme => ({
         backgroundColor: theme.palette.background.default,
       },
     },
+    progress: {
+      margin: theme.spacing.unit * 2,
+    },
   });
